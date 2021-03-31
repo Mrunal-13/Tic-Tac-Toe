@@ -1,6 +1,6 @@
 
 
-def display_board(board):# Remember, this only works in jupyter!
+def display_board(board):
     
     print('   |   |')
     print(' ' + board[7] + ' | ' + board[8] + ' | ' + board[9])
@@ -67,7 +67,7 @@ def player_choice(board):
 
 def replay():
     
-    return input('Do you want to play again? Enter Yes or No: ').lower().startswith('y')
+    return input('Replayy ? Enter Yes or No: ').lower().startswith('y')
 
 print('Welcome to Tic Tac Toe!')
 
