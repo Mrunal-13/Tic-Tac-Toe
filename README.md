@@ -16,4 +16,5 @@
 
 ## Introduction
 
-This project is all about
+This project is all about creating a tic tac toe using python.it is intresting to use functions in python for this project.
+
