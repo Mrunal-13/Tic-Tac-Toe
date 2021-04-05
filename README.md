@@ -57,8 +57,44 @@ Language : **Python**
    
    **Winning Conditions**
    
-   1)
+   1)if elements at this positions are same.
+     
+     * 7=8=9
+     
+     * 4=5=6
+     
+     * 1=2=3
+     
+     * 7=4=1
+     
+     * 8=5=2
+     
+     * 9=6=3
+     
+     * 9=5=1
+     
+     * 1=5=9
+     
+   If any of this conditions satisfies at any turn then thee player is winner.
    
-
+   ## Functions in program
+   
+   1) The first function in program is **display_board(board)**
+   
+       This function is made to print format of the game board and assign the values 
+       of places to the index values .
+       this function takes one parameter the name of board.
+       
+                                      7 8 9
+       
+                                      4 5 6
+                                      
+                                      1 2 3
+                                      
+   2)**player_input**
+      The function is player input.this function is meant to take input from player as the marker of their choice "X" OR "Y".
+      and return the P1 nad P2 markers.
+   
+ 3) **place_marker**
     
     
