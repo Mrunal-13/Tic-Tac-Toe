@@ -95,27 +95,42 @@ Language : **Python**
       The function is player input.this function is meant to take input from player as the marker of their choice "X" OR "Y".
       and return the P1 nad P2 markers.
    
- 3) **place_marker**
-    Place marker is the function to place the marker of the of the player position to ine position on the board and update the board.
-    It takes three parameters board,marker and position.
+   3)**place_marker**
+      Place marker is the function to place the marker of the of the player position to ine position on the board and update the board.
+       It takes three parameters board,marker and position.
     
     
- 4) **win_check**
-     Win_check is the function to check is there winner in game after every move of the player.
-     this functions checks all the winning conditions of the game.
-     it returns true if any condition is satisfied or false if not.
+   4)**win_check**
+        Win_check is the function to check is there winner in game after every move of the player.
+        this functions checks all the winning conditions of the game.
+        it returns true if any condition is satisfied or false if not.
      
- 5)**choose_first**
-    The program imports the library random.
-    it randomly chooses any integer from 0 or 1.
-    if random returns 0 then player 2 gets chance first to choose marker and if it returns 1 then player 1 gets chance.
+   5)**choose_first**
+        The program imports the library random.
+        it randomly chooses any integer from 0 or 1.
+        if random returns 0 then player 2 gets chance first to choose marker and if it returns 1 then player 1 gets chance.
     
     
   6)**space_check**
     this function checks if the spce in the board selected by player is empty or not.
     if space in the board is empty the function returns true.
-    
+   
+   
   7)**full_board check**
+      This function takes 1 parameter that is "the board".it calls our previously defined function space check to check the empty space.
+      it checks all boxes from  1 to 9 and if found any block free it returns true else false.This function is called after every individual turn to check draw.
+      
+      
+  8) **player_choice**
+      This function takes one parameter that is the board and as variable position = 0.
+      it asks player for his next position and checks whether the index is between 1 to 9 and if the that space is empty.
+      if both conditions are satisfied it assigns the marker on that position.
+     
+     
+   9) **replay**
+     The last function for the game is replay .
+     it asks to restart the game or quit it.
+
       
  
     
