@@ -132,5 +132,10 @@ Language : **Python**
      it asks to restart the game or quit it.
 
       
+  The game will start by printing welcome to tic tac toe and will assemble all tthe functions we created inside a while loop.
+  The gameon is the variable which returns boolean value for the game to start is true and stop as gameon turns false.
+  
+  
+  
  
     
