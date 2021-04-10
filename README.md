@@ -148,3 +148,11 @@ Language : **Python**
 
  4)**play_game** is the variable which stores the value from user called y or no ...y for yes and n for no.
    if play game is yes than gameon variable turns true else it is false.
+   game goes on if game on is true.
+   
+ 5)**position** is the variable inside while loop.it is  used to store value retuned from thr function players choice.
+   this function as we seen ask player for index on the board and returns the index or say position.
+   this value returned from players choice is stored inside variable position.
+   then this position is passed to place marker function to place the marker of respective player on respective index and the board is displayed.
+   
+   
