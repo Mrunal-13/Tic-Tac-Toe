@@ -91,6 +91,23 @@ Language : **Python**
                                       
                                       1 2 3
                                       
+                                      
+  ```
+    def display_board(board):
+    print('   |   |')
+    print(' ' + board[7] + ' | ' + board[8] + ' | ' + board[9])
+    print('   |   |')
+    print('-----------')
+    print('   |   |')
+    print(' ' + board[4] + ' | ' + board[5] + ' | ' + board[6])
+    print('   |   |')
+    print('-----------')
+    print('   |   |')
+    print(' ' + board[1] + ' | ' + board[2] + ' | ' + board[3])
+    print('   |   |')
+    
+  ```
+    
    2)**player_input**
       The function is player input.this function is meant to take input from player as the marker of their choice "X" OR "Y".
       and return the P1 nad P2 markers.
