@@ -137,5 +137,14 @@ Language : **Python**
   
   
   
+ ## Variables in program
  
-    
+ 1)**theBoard** is the variable which created the board.we can say it as our game board.it is passed in display every time we want to show the board.
+
+ 2)**player1_marker and player2_marker** are the two variables which stores the values returned from our function called player input().
+   we can call it as x or o is assigned to players according to rules.
+   
+ 3)**Turn** is the variable which stores value returning from fnction choose first.it returns a string player 1 or player two on the basis of random toss between  1 and  0.
+
+ 4)**play_game** is the variable which stores the value from user called y or no ...y for yes and n for no.
+   if play game is yes than gameon variable turns true else it is false.
