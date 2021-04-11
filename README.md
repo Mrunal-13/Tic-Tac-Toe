@@ -126,16 +126,40 @@ Language : **Python**
       Place marker is the function to place the marker of the of the player position to ine position on the board and update the board.
        It takes three parameters board,marker and position.
     
-    
+```def place_marker(board, marker, position):
+    board[position] = marker
+```
    4)**win_check**
         Win_check is the function to check is there winner in game after every move of the player.
         this functions checks all the winning conditions of the game.
         it returns true if any condition is satisfied or false if not.
+  
+```
+    def win_check(board,mark):
+    
+    return ((board[7] == mark and board[8] == mark and board[9] == mark) or # across the top
+    (board[4] == mark and board[5] == mark and board[6] == mark) or # across the middle
+    (board[1] == mark and board[2] == mark and board[3] == mark) or # across the bottom
+    (board[7] == mark and board[4] == mark and board[1] == mark) or # down the middle
+    (board[8] == mark and board[5] == mark and board[2] == mark) or # down the middle
+    (board[9] == mark and board[6] == mark and board[3] == mark) or # down the right side
+    (board[7] == mark and board[5] == mark and board[3] == mark) or # diagonal
+    (board[9] == mark and board[5] == mark and board[1] == mark)) # diagonal
+  ```
      
    5)**choose_first**
         The program imports the library random.
         it randomly chooses any integer from 0 or 1.
         if random returns 0 then player 2 gets chance first to choose marker and if it returns 1 then player 1 gets chance.
+       
+       ```import random
+
+         def choose_first():
+         if random.randint(0, 1) == 0:
+             return 'Player 2'
+        else:
+            return 'Player 1'
+      ```
     
     
   6)**space_check**
