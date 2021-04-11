@@ -197,3 +197,21 @@ Language : **Python**
    ```position = player_choice(theBoard)```
    
    
+   ## Summary
+   The tictactoe is a small game code runs in any interactive python enviornment.
+   it is something we used to play in schools or in free times.
+   This code will let you play it again in your computer with your friend.
+   The rules of the game are clearly explained under what is the game?.
+   Small parts and functions of the code is clearly exlained above.
+   Get your hands on code .design your own tic tac toe and play with your friends.
+   
+   
+   ## Acknowledgement
+   
+   It was great learning in this project when I was beginner in python.This milestone project 1 gave me great knowledge and push to learn python more.
+   I would like to acknowledge Professor john portila sir for inspiring my interest in python.
+   
+   
+   
+   
+   #***Thank you and happy coding!***
