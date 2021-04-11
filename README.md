@@ -111,7 +111,17 @@ Language : **Python**
    2)**player_input**
       The function is player input.this function is meant to take input from player as the marker of their choice "X" OR "Y".
       and return the P1 nad P2 markers.
-   
+   ```def player_input():
+    marker = ''
+    
+    while not (marker == 'X' or marker == 'O'):
+        marker = input('Player 1: Do you want to be X or O? ').upper()
+
+    if marker == 'X':
+        return ('X', 'O')
+    else:
+        return ('O', 'X')
+```
    3)**place_marker**
       Place marker is the function to place the marker of the of the player position to ine position on the board and update the board.
        It takes three parameters board,marker and position.
@@ -171,5 +181,6 @@ Language : **Python**
    this function as we seen ask player for index on the board and returns the index or say position.
    this value returned from players choice is stored inside variable position.
    then this position is passed to place marker function to place the marker of respective player on respective index and the board is displayed.
+   ```position = player_choice(theBoard)```
    
    
